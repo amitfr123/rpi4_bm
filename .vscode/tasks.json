@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "tasks": [
+        {
+          "taskName": "build",
+          "command": "zig",
+          "args": [
+            "build",
+            "bin",
+          ]
+        },
+        {
+          "taskName": "build-qemu",
+          "command": "zig",
+          "args": [
+            "build",
+            "qemu_debug",
+          ],
+        },
+      ]
+    
+}
